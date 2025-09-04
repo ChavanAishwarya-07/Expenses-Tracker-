@@ -1,0 +1,127 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+   
+    background-image: url('https://images.saymedia-content.com/.image/t_share/MTkyOTkyMzE2OTQ3MjQ0MjUz/website-background-templates.jpg');
+    background-size: cover;
+    background-position: center;    
+   
+    
+}
+h1,h2{
+    text-align: center;
+    color: #4059AD;
+    font-size: 24px;
+}
+nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: rgb(151, 216, 196);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0px 20px;
+            z-index: 100;
+            font-size: medium;
+        }
+
+        nav .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        nav .logo img {
+            height: 40px;
+            margin-right: 10px;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            margin: 10;
+            padding: 10px;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #4059AD ;
+            font-size: 16px;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #d49300;
+        }
+    
+
+.input-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-top: 100px;
+}
+.input-section label{
+    font-weight: bold;
+    margin-right: 10px;
+}
+.input-section input[type="number"], .input-section input[type="date"]{
+    padding: 5px;
+    margin-right: 10px;
+}
+.input-section button{
+    padding: 5px 10px;
+    background-color: rgb(238, 9, 9);
+    color:white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.expenses-list{
+    margin: 20px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+
+}
+th{
+   
+    background-color: #cc92c2;
+    color:black;
+    
+}
+tfoot td{
+    font-weight: bold;
+}
+
+.expense-table-body button{
+    background-color: rgb(238, 9, 9);
+    color:white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete-btn{
+    padding: 5px 10px;
+    background-color: rgb(238, 9, 9);
+    color:white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
